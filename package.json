@@ -12,6 +12,7 @@
     "citest": "mocha 'dist/tests/**/*.test.js' --timeout 1200000",
     "test": "mocha 'dist/tests/**/*.test.js' --timeout 1200000",
     "testnet": "npm run build && mocha 'dist/tests/testnet/**/*.js' --timeout 1200000",
+    "testnet-nobuild": "mocha 'dist/tests/testnet/**/*.js' --timeout 1200000",
     "genprivkey": "npm run build && node 'dist/tests/testnet/util/privateKey.js'"
   },
   "dependencies": {

@@ -20,6 +20,6 @@ elif [ "${PROCEED}" != "y" ] ; then
     npm run testnet
     while [ "$?" == "255" ] ; do
         read -p "Proceed?"
-        npm run testnet
+        npm run testnet-nobuild
     done
 fi
